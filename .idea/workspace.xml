@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67ad8bc8-e608-4135-972f-a5cecf5bda15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/config/JwtAuthenticationSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/config/PasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/exception/UsernameOrPasswordNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/model/LoginRspVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/utils/JwtTokenHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/utils/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/test/java/com/quanxiaoha/weblog/jwt/WeblogModuleJwtApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/weblog-module-jwt" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Documents/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2TT3xB3hb2530YPsNvWqXE7V4YR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/lynx/IdeaProjects/weblog/weblog-springboot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "7b474b425b3bb5528dbaa72053084c77",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weblog-module-jwt/src/main" />
+      <recent name="$PROJECT_DIR$/weblog-module-jwt/src/main/java" />
+      <recent name="$PROJECT_DIR$/weblog-web/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JwtTokenHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quanxiaoha.weblog.jwt.utils.JwtTokenHelper" />
+      <module name="weblog-module-jwt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quanxiaoha.weblog.jwt.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordEncoderConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quanxiaoha.weblog.jwt.config.PasswordEncoderConfig" />
+      <module name="weblog-module-jwt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quanxiaoha.weblog.jwt.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WeblogWebApplicationTests.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weblog-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quanxiaoha.weblog.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.quanxiaoha.weblog.web" />
+      <option name="MAIN_CLASS_NAME" value="com.quanxiaoha.weblog.web.WeblogWebApplicationTests" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeblogCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="weblog-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.weblogcommon.WeblogCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeblogSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="weblog-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quanxiaoha.weblogspringboot.WeblogSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeblogWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="weblog-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quanxiaoha.weblog.web.WeblogWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quanxiaoha.weblog.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67ad8bc8-e608-4135-972f-a5cecf5bda15" name="Changes" comment="" />
+      <created>1691053487449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691053487449</updated>
+      <workItem from="1691053488471" duration="11511000" />
+      <workItem from="1720883442130" duration="15031000" />
+      <workItem from="1721393013367" duration="46748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+2024-07-14 18:33:54.496 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplicationTests - Starting WeblogWebApplicationTests using Java 1.8.0_391 on Lynx with PID 37916 (started by lynx in /Users/lynx/IdeaProjects/weblog/weblog-springboot/weblog-web)
+2024-07-14 18:33:54.497 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplicationTests - The following profiles are active: prod
+2024-07-14 18:33:55.346 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplicationTests - Started WeblogWebApplicationTests in 1.094 seconds (JVM running for 1.644)
+2024-07-14 18:33:55.480 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行info级别日志
+2024-07-14 18:33:55.480 [main] WARN  com.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行warn级别日志
+2024-07-14 18:33:55.480 [main] ERROR com.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行error级别日志
+2024-07-14 18:33:55.480 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：qiuse

@@ -1,0 +1,14 @@
+[TraceId: ] 2024-07-21 15:48:21.817 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_391 on Lynx with PID 37698 (/Users/lynx/IdeaProjects/weblog/weblog-springboot/weblog-web/target/classes started by lynx in /Users/lynx/IdeaProjects/weblog/weblog-springboot)
+[TraceId: ] 2024-07-21 15:48:21.818 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-07-21 15:48:22.246 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-07-21 15:48:22.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-07-21 15:48:22.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-07-21 15:48:22.275 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-07-21 15:48:22.275 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 433 ms
+[TraceId: ] 2024-07-21 15:48:22.457 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-07-21 15:48:22.461 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 0.866 seconds (JVM running for 1.082)
+[TraceId: ] 2024-07-21 15:48:30.697 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-07-21 15:48:30.697 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-07-21 15:48:30.699 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[TraceId: 8cb411f3-a184-4c9f-9894-7803efc7d49c] 2024-07-21 15:48:30.781 [http-nio-8080-exec-1] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 8cb411f3-a184-4c9f-9894-7803efc7d49c] 2024-07-21 15:48:30.786 [http-nio-8080-exec-1] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 12ms, 出参: {"username":"admin","sex":1} =================================== 
