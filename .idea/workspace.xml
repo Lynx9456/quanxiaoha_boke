@@ -5,19 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ad8bc8-e608-4135-972f-a5cecf5bda15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/config/JwtAuthenticationSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/config/PasswordEncoderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/exception/UsernameOrPasswordNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/model/LoginRspVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/service/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/utils/JwtTokenHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/utils/ResultUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/test/java/com/quanxiaoha/weblog/jwt/WeblogModuleJwtApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-admin/target/classes/com/quanxiaoha/weblog/admin/config/Knife4jAdminConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-admin/target/classes/com/quanxiaoha/weblog/admin/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/aspect/ApiOperationLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/aspect/ApiOperationLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/config/JacksonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/domain/dos/UserDO$UserDOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/domain/dos/UserDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/domain/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/enums/ResponseCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/exception/BaseExceptionInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/exception/BizException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/utils/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-common/target/classes/com/quanxiaoha/weblog/common/utils/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/handler/RestAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/config/JwtAuthenticationSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/config/PasswordEncoderConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/exception/UsernameOrPasswordNullException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/filter/JwtAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/filter/TokenAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/handler/RestAccessDeniedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationFailureHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/handler/RestAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/model/LoginRspVO$LoginRspVOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/model/LoginRspVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/service/UserDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/utils/JwtTokenHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-module-jwt/target/classes/com/quanxiaoha/weblog/jwt/utils/ResultUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/com/quanxiaoha/weblog/web/WeblogWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/com/quanxiaoha/weblog/web/config/Knife4jConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/com/quanxiaoha/weblog/web/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/com/quanxiaoha/weblog/web/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/logback-weblog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weblog-web/target/classes/spy.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weblog-springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblog-module-admin/src/main/java/com/quanxiaoha/weblog/admin/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/weblog-module-admin/src/main/java/com/quanxiaoha/weblog/admin/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblog-module-common/src/main/java/com/quanxiaoha/weblog/common/enums/ResponseCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/weblog-module-common/src/main/java/com/quanxiaoha/weblog/common/enums/ResponseCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/utils/JwtTokenHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/weblog-module-jwt/src/main/java/com/quanxiaoha/weblog/jwt/utils/JwtTokenHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblog-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/weblog-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +69,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/weblog-module-jwt" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,9 +86,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2TT3xB3hb2530YPsNvWqXE7V4YR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,8 +105,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/lynx/IdeaProjects/weblog/weblog-springboot",
+    "last_opened_file_path": "/Users/lynx/IdeaProjects/weblog/quanxiaoha_boke",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +116,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "7b474b425b3bb5528dbaa72053084c77",
     "vue.rearranger.settings.migration": "true"
   },
@@ -104,7 +141,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.WeblogWebApplication">
     <configuration name="JwtTokenHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quanxiaoha.weblog.jwt.utils.JwtTokenHelper" />
       <module name="weblog-module-jwt" />
@@ -177,6 +214,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WeblogWebApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,6 +231,8 @@
       <workItem from="1691053488471" duration="11511000" />
       <workItem from="1720883442130" duration="15031000" />
       <workItem from="1721393013367" duration="46748000" />
+      <workItem from="1723379930760" duration="779000" />
+      <workItem from="1723892905352" duration="11679000" />
     </task>
     <servers />
   </component>
@@ -217,5 +261,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/weblog-module-jwt" />
+    </ignored-roots>
   </component>
 </project>
